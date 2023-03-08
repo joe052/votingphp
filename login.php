@@ -64,8 +64,8 @@ header("location:index.php?page=home");
   <main id="main" class=" alert-info">
   		<div id="login-left">
   			<div class="logo">
-  				<h1>CHMSC Online Voting System</h1>
-  				<img src="chmsc.png" alt="..." width="100%">
+  				<h1 class="text-center">Vote online</h1>
+  				<img src="./assets/img/ballot.png" alt="..." width="100%">
   			</div>
   		</div>
   		<div id="login-right" class="bg-warning">
@@ -73,7 +73,7 @@ header("location:index.php?page=home");
   				<div class="card-body">
   					<form id="login-form" >
   						<div class="form-group">
-  							<label for="username" class="control-label">Username</label>
+  							<label for="username" class="control-label">Voter Id</label>
   							<input type="text" id="username" name="username" class="form-control">
   						</div>
   						<div class="form-group">
